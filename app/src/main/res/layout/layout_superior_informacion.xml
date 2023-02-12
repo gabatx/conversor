@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/informacion_superior">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineBottomLaySupInf"
+            app:layout_constraintGuide_end="20dp"
+            android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineTopLaySupInf"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineEndLaySupInf"
+            app:layout_constraintGuide_end="20dp"
+            android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineStartLaySupInf"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineMitadLaySupInf"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="70dp" />
+
+    <TextView
+            android:id="@+id/textViewTituloAcercaDe"
+            android:fontFamily="@font/open_sans"
+            android:text="Acerca de"
+            android:textAllCaps="true"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupInf"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupInf"
+            app:layout_constraintTop_toTopOf="@+id/guidelineTopLaySupInf"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineMitadLaySupInf" />
+
+    <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineMitadLaySupInf" />
+
+    <TextView
+            android:text="@string/texto_informacion"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/open_sans"
+            android:textSize="12sp"
+            android:lineSpacingExtra="7sp"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:justificationMode="inter_word"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTextoAcercaDe"
+            app:layout_constraintTop_toTopOf="@+id/guidelineMitadLaySupInf"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupInf"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupInf"
+            tools:ignore="HardcodedText" />
+
+    <TextView
+            android:text="Conversión"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans"
+            android:textColor="@color/white"
+            android:textSize="7sp"
+            android:background="@drawable/fondo_icono"
+            android:drawableTop="@drawable/ic_baseline_compartir_32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:paddingTop="6dp"
+            android:id="@+id/iconoCompartir"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTextoAcercaDe"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupInf"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/iconoFeeback"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+            android:text="Feedback"
+            android:fontFamily="@font/open_sans"
+            android:textColor="@color/white"
+            android:textSize="7sp"
+            android:background="@drawable/fondo_icono"
+            android:drawableTop="@drawable/ic_baseline_mode_feedback_32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:paddingTop="8dp"
+            android:id="@+id/iconoFeeback"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTextoAcercaDe"
+            app:layout_constraintStart_toEndOf="@+id/iconoCompartir"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toStartOf="@+id/iconoValora"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+            android:text="Valora App"
+            android:fontFamily="@font/open_sans"
+            android:textColor="@color/white"
+            android:textSize="7sp"
+            android:background="@drawable/fondo_icono"
+            android:drawableTop="@drawable/ic_baseline_valora_32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:paddingTop="6dp"
+            android:id="@+id/iconoValora"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTextoAcercaDe"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupInf"
+            app:layout_constraintStart_toEndOf="@+id/iconoFeeback"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

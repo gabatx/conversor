@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degradado_resultado">
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineStartLaySupResult"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineTopLaySupResult"
+            app:layout_constraintGuide_begin="20dp"
+            android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineBottomLaySupResult"
+            app:layout_constraintGuide_end="20dp"
+            android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineEndLaySupResult"
+            app:layout_constraintGuide_end="20dp"
+            android:orientation="vertical" />
+
+    <TextView
+            android:text="de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idDe"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupResult"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineCuartoSuperior" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineCuartoSuperior"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+    <TextView
+            android:text="22.0"
+            android:textSize="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valorDe"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="@+id/guidelineCuartoSuperior"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineCuartoSuperior"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupResult" />
+
+    <Spinner
+            android:id="@+id/spinnerValorDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:gravity="right"
+            android:background="#00FFFFFF"
+            android:textAlignment="textEnd"
+            tools:ignore="RtlCompat,RtlHardcoded"
+            app:layout_constraintEnd_toEndOf="@id/guidelineEndLaySupResult"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineMitad"
+            android:layout_marginBottom="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineMitad"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="392dp"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="@+id/guidelineMitad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupResult" />
+
+    <TextView
+            android:text="a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idA"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/guidelineStartLaySupResult"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineCuartoInferior"
+            app:layout_constraintTop_toTopOf="@+id/guidelineMitad" />
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guidelineCuartoInferior"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.75239396" />
+
+    <TextView
+            android:text="0.22"
+            android:textSize="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valorA"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineCuartoInferior"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupResult"
+            app:layout_constraintTop_toTopOf="@+id/guidelineCuartoInferior" />
+
+    <Spinner
+            android:id="@+id/spinnerValorA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:textAlignment="textEnd"
+            android:gravity="right"
+            android:background="#00FFFFFF"
+            tools:ignore="RtlCompat,RtlHardcoded"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEndLaySupResult"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

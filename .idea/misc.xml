@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/drawable/degradado_resultado.xml" value="0.3285" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/drawable/fondo_elije_opcion.xml" value="0.337" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/drawable/fondo_icono.xml" value="0.337" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/drawable/ic_baseline_mode_feedback_32.xml" value="0.1655" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/font/.xml" value="0.3651041666666667" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/activity_informacion.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/activity_main.xml" value="0.21944444444444444" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/icono_compartir.xml" value="1.0" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/layout_botones.xml" value="0.33" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/layout_inferior_informacion.xml" value="0.19537037037037036" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/layout_superior_informacion.xml" value="0.5" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/layout_superior_resultado.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/11_AppConversor/app/src/main/res/layout/scroll_horizontal_opciones.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/degradado_resultado.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/fondo_elije_opcion.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/solucion_padding_top_bottom.xml" value="0.268" />
+        <entry key="app/src/main/res/font/.xml" value="0.4395833333333333" />
+        <entry key="app/src/main/res/font/amiri.xml" value="0.325" />
+        <entry key="app/src/main/res/font/basker_ville_bold_italic_bt.xml" value="0.43148148148148147" />
+        <entry key="app/src/main/res/font/roboto.xml" value="0.1962962962962963" />
+        <entry key="app/src/main/res/layout/activity_informacion.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_botones.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_elije_unidad.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_inferior_informacion.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/layout_scroll_vertical.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_spinner_elije_unidad.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_spinner_valor_de_inicio.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/layout_superior_informacion.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/layout_superior_resultado.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/scroll_horizontal_opciones.xml" value="0.40307692307692305" />
+        <entry key="app/src/main/res/layout/scroll_horizontal_opciones_constraint.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

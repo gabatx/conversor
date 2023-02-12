@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App Conversor</string>
+    <string name="texto_informacion">\"Conversor\" es una herramienta que convierte diferentes unidades de medición. Tiene una interfaz intuitiva y amigable, admitiendo 95 unidades diferentes en un total de 11 categorías.\n\nLa selección de categoría se realiza en la barra horizontal. Seguidamente se debe pulsar sobre la unidad en el apartado \"de\" y \"a\" para seleccionar la unidad deseada. Para ver el resultado se debe pulsar sobre el botón convertir.</string>
+</resources>
